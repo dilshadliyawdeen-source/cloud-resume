@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System.Root | Dilshad Liyawdeen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="bgCanvas"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">&lt;sys/eng&gt;</div>
+        <div class="nav-links">
+            <a href="#home" class="active">~/home</a>
+            <a href="#about">~/about</a>
+            <a href="#experience">~/experience</a>
+            <a href="#skills">~/skills</a>
+            <a href="#projects">~/projects</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-terminal"></i>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="home" class="hero-section">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="buttons">
+                        <span class="close"></span>
+                        <span class="minimize"></span>
+                        <span class="maximize"></span>
+                    </div>
+                    <div class="title">dilshad@system: ~</div>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">dilshad@host:~$</span> ./init_profile.sh</p>
+                    <p class="output">Loading kernel modules... [Linux/RedHat]</p>
+                    <p class="output">Initializing network stack... [Cisco/Fortinet] [OK]</p>
+                    <p class="output">Mounting storage volumes... [TrueNAS/ZFS] [OK]</p>
+                    <p class="output">Starting virtualization engine... [Proxmox/OpenStack] [OK]</p>
+                    <br>
+                    <h1 class="typing-text">Hello, I'm <span class="highlight">Dilshad Liyawdeen</span></h1>
+                    <h2 class="typing-role">Systems Engineer | Network Admin | Cloud Architect</h2>
+                    <br>
+                    <p><span class="prompt">dilshad@host:~$</span> <span class="cursor">_</span></p>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#projects" class="btn primary-btn">View Infrastructure</a>
+                <a href="mailto:dilshadliyawdeen@gmail.com" class="btn secondary-btn">Establish Connection</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">01. System Diagnostics</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am an aspiring <span class="accent">IT Professional</span> with hands-on experience in
+                        building and maintaining high-performance infrastructure.
+                        <span class="accent">CCNA-certified</span> and well-versed in networking, cloud computing,
+                        cybersecurity, and server management.
+                    </p>
+                    <p>
+                        From building custom water-cooled PCs to deploying <span class="accent">HPC clusters for
+                            AI/ML</span> and managing enterprise firewalls,
+                        I am passionate about contributing to robust, secure, and scalable systems.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>+
+                            <span class="stat-label">Years Exp</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>%
+                            <span class="stat-label">Uptime Focus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="server-rack">
+                        <!-- Visual representation handled by CSS/JS or image -->
+                        <i class="fas fa-server" style="font-size: 10rem; color: rgba(255,255,255,0.05);"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">02. Execution History</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Oct 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Associate System Engineer</h3>
+                        <h4>H Connect International, Sri Lanka</h4>
+                        <ul>
+                            <li>Managed escalated technical issues and optimized network performance.</li>
+                            <li>Configured Microsoft 365, Active Directory, and SharePoint.</li>
+                            <li>Provided Tier 1 support for VPNs, VLANs, routing, and firewalls.</li>
+                            <li>Supported virtualization (Hyper-V, VMware) and backup systems.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2025 - Jun 2025</div>
+                    <div class="timeline-content">
+                        <h3>Junior Network Administrator</h3>
+                        <h4>Aethermind SIC, Qatar</h4>
+                        <ul>
+                            <li>Built HPC infrastructure for AI/ML workloads with GPU passthrough (RTX 4090, A6000).
+                            </li>
+                            <li>Deployed Proxmox, Ubuntu, and TrueNAS storage solutions.</li>
+                            <li>Designed VLANs and managed Fortinet firewalls for security.</li>
+                            <li>Automated infrastructure using Kubernetes and Terraform.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 2022 - Jan 2025</div>
+                    <div class="timeline-content">
+                        <h3>PC Builder</h3>
+                        <h4>Store 974, Qatar</h4>
+                        <ul>
+                            <li>Assembled custom water-cooled gaming PCs and workstations.</li>
+                            <li>Diagnosed and resolved complex hardware/software issues.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">03. Tech Stack</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Networking & Security</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-level="95%">
+                            <div class="info"><span>Cisco (CCNA) / Fortinet</span></div>
+                            <div class="progress-bar"><span style="width: 0%"></span></div>
+                        </div>
+                        <div class="skill-bar" data-level="90%">
+                            <div class="info"><span>TCP/IP, VLANs, Routing</span></div>
+                            <div class="progress-bar"><span style="width: 0%"></span></div>
+                        </div>
+                        <div class="skill-bar" data-level="85%">
+                            <div class="info"><span>Cybersecurity (ISC2 CC)</span></div>
+                            <div class="progress-bar"><span style="width: 0%"></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Systems</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-level="90%">
+                            <div class="info"><span>Linux (RedHat/Ubuntu)</span></div>
+                            <div class="progress-bar"><span style="width: 0%"></span></div>
+                        </div>
+                        <div class="skill-bar" data-level="85%">
+                            <div class="info"><span>Virtualization (Proxmox/VMware)</span></div>
+                            <div class="progress-bar"><span style="width: 0%"></span></div>
+                        </div>
+                        <div class="skill-bar" data-level="80%">
+                            <div class="info"><span>AWS / OpenStack / Azure</span></div>
+                            <div class="progress-bar"><span style="width: 0%"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="certs-container" style="margin-top: 3rem;">
+                <h3><i class="fas fa-certificate"></i> Verified Certificates</h3>
+                <div class="cert-tags">
+                    <span class="cert-tag">CCNA</span>
+                    <span class="cert-tag">ISC2 Certified in Cybersecurity</span>
+                    <span class="cert-tag">Google IT Support</span>
+                    <span class="cert-tag">Python Essentials</span>
+                    <span class="cert-tag">Diploma in Hardware & Networking</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">04. Executed Protocols</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Private Cloud (OpenStack)</h3>
+                    <p>Configured a testbed using OpenStack for cloud service orchestration and VM lifecycle management.
+                        Integrated networking, storage, and dashboard interfaces.</p>
+                    <ul class="tech-list">
+                        <li>OpenStack</li>
+                        <li>Cloud Orchestration</li>
+                        <li>VM Lifecycle</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>HPC & AI Infrastructure</h3>
+                    <p>Built high-performance computing environments for AI/ML model training. Configured GPU
+                        passthrough on Proxmox for direct hardware access.</p>
+                    <ul class="tech-list">
+                        <li>HPC</li>
+                        <li>Proxmox</li>
+                        <li>GPU/AI</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Fortinet Security Optimization</h3>
+                    <p>Enhanced enterprise network security by implementing traffic policies, configuring VPNs, and
+                        conducting regular firewall audits.</p>
+                    <ul class="tech-list">
+                        <li>Fortinet</li>
+                        <li>VPN</li>
+                        <li>Security Audits</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & Built by Dilshad Liyawdeen</p>
+        <div class="social-footer">
+            <a href="https://www.linkedin.com/in/dilshad-liyawdeen-66886421qar" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="mailto:dilshadliyawdeen@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="status">System Status: <span class="online">ONLINE</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
